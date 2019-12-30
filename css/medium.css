@@ -143,9 +143,13 @@ section.recent-posts {
     line-height: 1.25;
 }
 
+.fa-instagram:before{
+    color: #E1306C;
+}
+
 .listfeaturedtag h4.card-text,
 .listrecent h4.card-text {
-    color: rgba(0, 0, 0, .44);
+    color: rgba(0, 0, 0, .7);
     font-size: 0.95rem;
     line-height: 1.6;
     font-weight: 400;
@@ -681,20 +685,26 @@ h6 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.article-post .h1,
+
 .article-post .h2,
 .article-post .h3,
-.article-post .h4,
+.article-post .h1,
 .article-post .h5,
 .article-post .h6,
-.article-post h1,
 .article-post h2,
 .article-post h3,
-.article-post h4,
+.article-post h1,
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.article-post .h4,
+.article-post h4{
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
 }
 
 .article-post img.shadow {
